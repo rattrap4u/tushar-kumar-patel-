@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Assignment</h1>
+    <p>Counts</p>
+    <h2 id="counter">0</h2>
+    <button id="incre" onclick="increment()">Increment </button>
+    <script>
+        let countEl = document.getElementById("counter")
+        let counter = 0
+        function increment() {
+            counter += 1
+            countEl.innerText = counter
+        }
+    </script>
+    
+</body>
+</html>
